@@ -34,6 +34,9 @@ Just copy all the files and folders to your ~/.config/awesome directory and done
 
 This theme uses museosansrounde_ font so, you need to install it.
 
+SNAPSHOTS
+===========
+
 **Anxiety Original**
 
 .. image:: snaps/original/2015-04-02-155709_1600x900_scrot.png
