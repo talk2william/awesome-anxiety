@@ -16,7 +16,7 @@ Just copy all the files and folders to your ~/.config/awesome directory and done
  
 *or download the zip_ and extract it inside the ~/.config/awesome directory.*
 
-- *for best optimization you must need this all:*
+*for best optimization you must need this all:*
 
 - *compton_ (shadding/effects)*
 
