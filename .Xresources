@@ -1,0 +1,20 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+////urxvtc
+
+URxvt.depth: 32
+URxvt.scrollBar: false
+URxvt*foreground: #ff0000
+URxvt*background: [95]#FFFFFF
+URxvt.colorUL: #4682B4
+URxvt*Transparent: True
+URxvt.font: -misc-fixed-bold-r-normal--15-145-75-75-c-80-iso8859-1
+URxvt.iconFile:    /home/art-attack/.icons/Flattr/apps/64/Terminal.svg
+urxvt*internalBorder: 10
+urxvt*cursorBlink: true
