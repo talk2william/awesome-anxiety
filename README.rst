@@ -1,4 +1,4 @@
-**Themes for awesome_wm_ 3.5**
+**Themes for Awesome_WM_ 3.5**
 
 :Author: Arpan Biswas
 :License: BY-NC-SA_
@@ -39,7 +39,7 @@ To switch "Blur" theme you need to execute this command:
 
  # ~/.config/awesome/switch Blur
  
-To switch "Blur" theme you need to execute this command:
+To switch "Original" theme you need to execute this command:
 
  # ~/.config/awesome/switch Original
 
