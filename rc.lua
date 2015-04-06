@@ -47,7 +47,7 @@ end
 -- Themes define colours, icons, and wallpapers
 
 -- Load the theme
-beautiful.init(os.getenv("HOME") .. "/.config/awesome/themes/Original/theme.lua")
+beautiful.init(os.getenv("HOME") .. "/.config/awesome/themes/Blur/theme.lua")
 
 -- This is used later as the Original terminal and editor to run.
 terminal = "urxvt"
@@ -168,6 +168,8 @@ vicious.register(tdwidget, vicious.widgets.date, strf, 20)
   date = naughty.notify({ 
     title = "DATE!",
     text = os.date("%b %d, %Y"),
+    bg = "#ffffff",
+    fg="#333333",
     icon = beautiful.widget_icon1,
     icon_size = 44,
     font = "Museo Sans Rounded 900 13",
@@ -191,6 +193,7 @@ volume:connect_signal("mouse::enter", function ()
   vol = naughty.notify({ 
     title = " VOLUME!",
     text = "Scroll Up/Down",
+    bg = "#ffffff",
     fg="#333333",
     icon = beautiful.widget_icon2,
     icon_size = 44,
@@ -295,7 +298,7 @@ for s = 1, screen.count() do
     mytasklist[s] = awful.widget.tasklist(s, awful.widget.tasklist.filter.currenttags, mytasklist.buttons)
 
     -- Create the wibox
-    mywibox_toggle[s] = awful.wibox({ position = "left", height = "1", width = "1", screen = s })
+    mywibox_toggle[s] = awful.wibox({ position = "left", ontop = true, height = "1", width = "1", screen = s })
     mywibox_toggle[s]:connect_signal("mouse::enter", function () 
       mywibox[mouse.screen].visible = not mywibox[mouse.screen].visible
      end)

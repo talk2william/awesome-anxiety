@@ -1,0 +1,5 @@
+#!/bin/sh
+
+arg=$1
+
+sed -i "50 c\beautiful.init(os.getenv(\"HOME\") .. \"/.config/awesome/themes/$arg/theme.lua\")" ~/.config/awesome/rc.lua
